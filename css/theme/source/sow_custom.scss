@@ -1,0 +1,40 @@
+/**
+ * SOW Custom theme for reveal.js.
+ *
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/satisfy/satisfy.css);
+@import url(../../lib/font/quicksand/quicksand.css);
+@import url(../../lib/font/arvo/arvo.css);
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor: #eee;
+$headingColor: #fff;
+$headingTextShadow: none;
+$backgroundColor: #293346;
+$linkColor: #f5bd35;
+$linkColorHover: darken( $linkColor, 10% );
+$selectionBackgroundColor: rgba(#999, 0.8);
+$heading1TextShadow: 0px;
+$headingFont: 'Satisfy', cursive;
+$mainFont: 'Quicksand', sans-serif;
+//$mainFont: 'Arvo', serif;
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// Custom Style --------------------------------
+figcaption {
+	font-size: 16px;
+}
+// ---------------------------------------------

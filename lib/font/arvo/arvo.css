@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Arvo";
+    src: url("arvo-regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url("arvo-italic.ttf") format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url("arvo-bold.ttf") format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url("arvo-bolditalic.ttf") format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
