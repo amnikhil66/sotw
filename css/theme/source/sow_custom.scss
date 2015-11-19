@@ -40,7 +40,81 @@ figcaption {
 
 #end::before{
 	content: "Thank You";
+	-webkit-animation: words ease 8s infinite alternate;
+	-moz-animation: words ease 8s infinite alternate;
 	animation: words ease 8s infinite alternate;
+}
+
+@-webkit-keyframes  words {
+	0% {
+		content: "Thank You";
+	}
+	10% {
+		content: "നന്ദി";
+	}
+	20% {
+		content: "நன்றி";
+	}
+	30% {
+		content: "ಧನ್ಯವಾದ"
+	}
+	40% {
+		content: "ధన్యవాదాలు"
+	}
+	50% {
+		content: "धन्यवाद"
+	}
+	60% {
+		content: "তোমাকে ধন্যবাদ"
+	}
+	70% {
+		content: "આભાર"
+	}
+	80% {
+		content: "धन्यवाद"
+	}
+	90% {
+		content: "ਤੁਹਾਡਾ ਧੰਨਵਾਦ"
+	}
+	100% {
+		content: "Chaya t'not"
+	}
+}
+
+@-moz-keyframes  words {
+	0% {
+		content: "Thank You";
+	}
+	10% {
+		content: "നന്ദി";
+	}
+	20% {
+		content: "நன்றி";
+	}
+	30% {
+		content: "ಧನ್ಯವಾದ"
+	}
+	40% {
+		content: "ధన్యవాదాలు"
+	}
+	50% {
+		content: "धन्यवाद"
+	}
+	60% {
+		content: "তোমাকে ধন্যবাদ"
+	}
+	70% {
+		content: "આભાર"
+	}
+	80% {
+		content: "धन्यवाद"
+	}
+	90% {
+		content: "ਤੁਹਾਡਾ ਧੰਨਵਾਦ"
+	}
+	100% {
+		content: "Chaya t'not"
+	}
 }
 
 @keyframes words {
